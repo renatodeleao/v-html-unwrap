@@ -1,0 +1,38 @@
+{
+  "name": "v-html-unwrap",
+  "version": "1.0.0",
+  "description": "Like Vue’s v-html directive but this one replaces the wrapper element (unwraps)",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest --run",
+    "preflight": "npm run test:run && npx publint"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "v-html",
+    "unwrap",
+    "remove",
+    "replace",
+    "swap",
+    "wrapper",
+    "element"
+  ],
+  "author": "Renato de Leão",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/test-utils": "^2.4.3",
+    "happy-dom": "^12.10.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4",
+    "vue": "^3.3.11"
+  }
+}
